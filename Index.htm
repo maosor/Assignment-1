@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="myApp" ng-controller="personCtrl">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="Scripts/app.js"> </script>
+
+<body>
+<div class="container ng-scope" >
+<h1>
+Module 1 Coding Assignment
+</h1>
+<br>
+<p>Can you list comma-separated items they usually eat for lunch : <input ng-model="Feed" type="text"placeholder="Enter feed here"></p>
+<br>
+<button ng-click= "DarMensaje()"> Check If Too Much </button>
+<br>
+<h1 style = "color:{{color}}; border:1px solid {{color}} ">
+  Message: {{Mensaje}}
+</h1>
+<h2>
+  Items:{{cantidad}}
+</h2>
+</div>
+</body>
+</html>
