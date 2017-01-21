@@ -1,6 +1,6 @@
 var app = angular.module('myApp', []);
 app.controller('personCtrl', function($scope) {
-    $scope.Feed = "Arroz, frijoles, Carne";
+   // $scope.Feed = "Arroz, frijoles, Carne";
     $scope.DarMensaje = function () {
       $scope.Feed = $scope.Feed.split(',');
       $scope.cantidad = $scope.Feed.length;
